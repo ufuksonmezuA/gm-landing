@@ -1,1 +1,1 @@
-# gm-landing
+# General Mobile Ecommerce Homepage
