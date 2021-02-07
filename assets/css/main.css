@@ -500,7 +500,7 @@ img{
 }
 
 .footer__link:hover{
-	/* color: var(--first-color); */
+	color: var(--first-color);
 }
 
 .footer__social{
