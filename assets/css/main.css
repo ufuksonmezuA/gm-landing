@@ -16,8 +16,8 @@
 	--biggest-font-size: 2rem;
 	--h2-font-size: 1.125rem;
 	--h3-font-size: 1rem;
-	--normal-font-size: .938rem;
-	--small-font-size: .813rem;
+	--normal-font-size: .9375rem;
+	--small-font-size: .8125rem;
 
   /*========== Font weight ==========*/
 	--font-semi-bold: 600;
@@ -195,7 +195,7 @@ img{
 }
 
 .nav__toggle{
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	cursor: pointer;
 }
 
@@ -282,7 +282,7 @@ img{
 	display: flex;	
 	align-items: center;
 	justify-content: center;
-	position: releative;
+	position: relative;
 }
 
 .home__title{
@@ -500,7 +500,7 @@ img{
 }
 
 .footer__link:hover{
-	color: var(--first-color);
+	/* color: var(--first-color); */
 }
 
 .footer__social{
@@ -509,10 +509,15 @@ img{
 	margin-right: var(--mb-3);
 }
 
-.footer__social:hover{
-	color: var(--first-color);
+a.footer__social[href*=instagram]:hover{
+	color: #E1306C;
 }
-
+a.footer__social[href*=twitter]:hover{
+	color: #1DA1F2;
+}
+a.footer__social[href*=facebook]:hover{
+	color: #4267B2;
+}
 .footer__copy{
 	text-align: center;
 	font-size: var(--small-font-size);
